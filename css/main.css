@@ -33,4 +33,10 @@ svg {
 
 .lines path {
   stroke-dasharray: 0, 480;
+  background-color: darkred;
+  transition: all .5s linear;
+}
+
+.is-clicked {
+  background-color: orange;
 }
