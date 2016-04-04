@@ -1,3 +1,3 @@
-$('.lines').on('click', function (e) {
-  $(this).toggleClass('is-clicked');
+$('svg').on('click', function (e) {
+  $('.lines').toggleClass('is-clicked');
 });
