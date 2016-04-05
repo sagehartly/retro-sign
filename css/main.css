@@ -31,11 +31,47 @@ svg {
   cursor: pointer;
 }
 
-.lines path {
-  stroke-dasharray: 0, 480;
-  transition: all .5s ease;
+.lineEngage {
+  animation: lineEngage 1s linear;
+}
+@keyframes lineEngage {
+
+  0% {
+
+    stroke-dasharray: 0, 480;
+  }
+
+  100% {
+    stroke-dasharray: 480, 480;
+  }
 }
 
-.is-clicked {
+.is-engaged path:nth-child(1) {
   fill: orange;
+  transition: all 0.5s;
+}
+
+.is-engaged path:nth-child(6) {
+  fill: orange;
+  transition: all 0.5s;
+}
+
+.is-engaged path:nth-child(2) {
+  fill: orange;
+  transition: all 0.5s;
+}
+
+.is-engaged path:nth-child(5) {
+  fill: orange;
+  transition: all 0.5s;
+}
+
+.is-engaged path:nth-child(3) {
+  fill: orange;
+  transition: all 0.5s;
+}
+
+.is-engaged path:nth-child(4) {
+  fill: orange;
+  transition: all 0.5s;
 }
