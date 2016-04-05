@@ -31,13 +31,21 @@ svg {
   cursor: pointer;
 }
 
+.lines path {
+  stroke: brown;
+}
+
+.engage {
+  fill: brown;
+}
+
 .lineEngage {
   animation: lineEngage 1s linear;
 }
+
 @keyframes lineEngage {
 
   0% {
-
     stroke-dasharray: 0, 480;
   }
 
@@ -46,32 +54,38 @@ svg {
   }
 }
 
-.is-engaged path:nth-child(1) {
-  fill: orange;
+.btn:active path:nth-child(1) {
+  fill: #f60;
   transition: all 0.5s;
+  transition-delay: .1s;
 }
 
-.is-engaged path:nth-child(6) {
-  fill: orange;
+.btn:active path:nth-child(6) {
+  fill: #f60;
   transition: all 0.5s;
+  transition-delay: .5s;
 }
 
-.is-engaged path:nth-child(2) {
-  fill: orange;
+.btn:active path:nth-child(2) {
+  fill: #f60;
   transition: all 0.5s;
+  transition-delay: .5s;
 }
 
-.is-engaged path:nth-child(5) {
-  fill: orange;
+.btn:active path:nth-child(5) {
+  fill: #f60;
   transition: all 0.5s;
+  transition-delay: .5s;
 }
 
-.is-engaged path:nth-child(3) {
-  fill: orange;
+.btn:active path:nth-child(3) {
+  fill: #f60;
   transition: all 0.5s;
+  transition-delay: .5s;
 }
 
-.is-engaged path:nth-child(4) {
-  fill: orange;
+.btn:active path:nth-child(4) {
+  fill: #f60;
   transition: all 0.5s;
+  transition-delay: .5s;
 }
