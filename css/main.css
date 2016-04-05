@@ -43,7 +43,7 @@ svg {
   fill: white;
 }
 
-.lineEngage {
+.lineEngage path {
   animation: lineEngage 1s linear;
 }
 
